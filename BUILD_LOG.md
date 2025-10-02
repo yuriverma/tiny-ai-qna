@@ -8,7 +8,7 @@ This document captures my complete journey building the Tiny AI QnA app includin
 
 You have 0 dollars remaining credits
 
-- Googled how to check OpenAI usage and found the usage dashboard  
+- checked OpenAI usage and found the usage dashboard  
 - Confirmed my free trial expired and I had no credits left  
 - Pivoted away from OpenAI because billing would block the project
 
@@ -16,11 +16,11 @@ You have 0 dollars remaining credits
 - Tried Hugging Face pipelines like facebook bart large cnn and deepset roberta base squad2  
 - Faced problems downloading large models on my 8GB RAM Mac  
 - Errors related to context length and slow downloads  
-- Googled huggingface free inference API without GPU and found inference endpoints are paid  
+- Asked GPT huggingface free inference API without GPU and found inference endpoints are paid  
 - Decided Hugging Face was not sustainable for a quick demo
 
 ## Step 3 Moved to Groq
-- Googled free OpenAI compatible API and found Groq’s Llama models  
+- Asked ChatGPT free OpenAI compatible API and found Groq’s Llama models  
 - First attempt gave error  
 
  model llama3-8b-8192 has been decommissioned
