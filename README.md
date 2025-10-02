@@ -38,19 +38,15 @@ The detailed build log is documented in [BUILD_LOG.md](BUILD_LOG.md).
 It contains every error, what I tried, what failed, what I Googled and how I adapted.
 
 ## Learnings
-## Free APIs often deprecate models so always check official docs  
-## Never push real environment keys I mistakenly pushed it once and learned to rotate keys immediately  
-## Streamlit is perfect for quick UI without HTML or JavaScript  
-## Documenting even failures shows the process matters as much as the result  
-
-## Next Steps
-## Save QnA history to a markdown file with timestamps  
-## Add token usage and latency stats  
-## Deploy on Render with a Flask backend and simple web frontend  
-## Try smaller Hugging Face models for an offline fallback  
+1. Free APIs often deprecate models so always check official docs  
+2. Never push real environment keys I mistakenly pushed it once and learned to rotate keys immediately  
+3. Streamlit is perfect for quick UI without HTML or JavaScript  
+4. Documenting even failures shows the process matters as much as the result  
 
 ## Screenshots
-Add screenshots of CLI and Streamlit UI here
+![WhatsApp Image 2025-10-02 at 16 33 07](https://github.com/user-attachments/assets/41242b35-3958-4a69-aed4-29d1953ec528)
+![WhatsApp Image 2025-10-02 at 16 35 02](https://github.com/user-attachments/assets/8e71cdaf-5bc2-4906-87a8-531c6fc50cf1)
+
 
 ## Live Demo
 Add Hugging Face Space link here once deployed
