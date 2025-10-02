@@ -4,12 +4,12 @@ A tiny AI powered app built as part of my internship assignment.
 The app answers any question from the command line or via a simple Streamlit UI using Groq’s free LLM API.
 
 ## Features
-# Command line QnA using qna.py  
-# Interactive chat like UI built with Streamlit using app.py  
-# Multiple model support with model flag in CLI and dropdown in UI  
-# Adjustable creativity with temp flag in CLI and slider in UI  
-# Clear error handling if API key is missing  
-# Documented build log with pivots and failed attempts  
+1. Command line QnA using qna.py  
+2. Interactive chat like UI built with Streamlit using app.py  
+3. Multiple model support with model flag in CLI and dropdown in UI  
+4. Adjustable creativity with temp flag in CLI and slider in UI  
+5. Clear error handling if API key is missing  
+6. Documented build log with pivots and failed attempts  
 
 ## Setup and Run
 
