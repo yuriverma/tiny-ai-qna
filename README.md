@@ -49,4 +49,4 @@ It contains every error, what I tried, what failed, what I Googled and how I ada
 
 
 ## Live Demo
-Add Hugging Face Space link here once deployed
+[Live Link](https://tiny-ai-qna.streamlit.app/)
