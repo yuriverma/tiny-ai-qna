@@ -19,11 +19,11 @@ SYSTEM_PROMPT = (
 
 def get_client():
     if not API_KEY:
-        return None, "❌ Missing GROQ_API_KEY. Put it in a .env file (e.g., GROQ_API_KEY=gsk_...)."
+        return None, " Missing GROQ_API_KEY. Put it in a .env file (e.g., GROQ_API_KEY=gsk_...)."
     try:
         return Groq(api_key=API_KEY), None
     except Exception as e:
-        return None, f"❌ Failed to init Groq client: {e}"
+        return None, f" Failed to init Groq client: {e}"
 
 def ask_llm(client, question: str, model: str = "llama-3.1-8b-instant", temperature: float = 0.3) -> str:
     try:
@@ -37,7 +37,7 @@ def ask_llm(client, question: str, model: str = "llama-3.1-8b-instant", temperat
         )
         return resp.choices[0].message.content.strip()
     except Exception as e:
-        return f"❌ API error: {e}"
+        return f" API error: {e}"
 
 def interactive(default_model: str, default_temp: float):
     client, err = get_client()

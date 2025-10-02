@@ -59,13 +59,13 @@ if user_q:
                 )
                 answer = resp.choices[0].message.content.strip()
             except Exception as e:
-                answer = f"❌ API error: {e}"
+                answer = f" API error: {e}"
         st.markdown(answer)
     st.session_state.messages.append({"role": "assistant", "content": answer})
 
 col1, col2 = st.columns(2)
 with col1:
-    if st.button("🧹 Clear chat"):
+    if st.button(" Clear chat"):
         st.session_state.messages = []
         st.rerun()
 with col2:
